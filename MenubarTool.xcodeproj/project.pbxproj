@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E27CED6D1B10DD3F005E6958 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CED6C1B10DD3F005E6958 /* AppDelegate.swift */; };
+		E27CED6F1B10DD3F005E6958 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27CED6E1B10DD3F005E6958 /* Images.xcassets */; };
+		E27CED721B10DD3F005E6958 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27CED701B10DD3F005E6958 /* MainMenu.xib */; };
+		E27CED7E1B10DD3F005E6958 /* MenubarToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27CED7D1B10DD3F005E6958 /* MenubarToolTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E27CED781B10DD3F005E6958 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E27CED5F1B10DD3F005E6958 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E27CED661B10DD3F005E6958;
+			remoteInfo = MenubarTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E27CED671B10DD3F005E6958 /* MenubarTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenubarTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27CED6B1B10DD3F005E6958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27CED6C1B10DD3F005E6958 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E27CED6E1B10DD3F005E6958 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E27CED711B10DD3F005E6958 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E27CED771B10DD3F005E6958 /* MenubarToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenubarToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27CED7C1B10DD3F005E6958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27CED7D1B10DD3F005E6958 /* MenubarToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenubarToolTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E27CED641B10DD3F005E6958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27CED741B10DD3F005E6958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E27CED5E1B10DD3F005E6958 = {
+			isa = PBXGroup;
+			children = (
+				E27CED691B10DD3F005E6958 /* MenubarTool */,
+				E27CED7A1B10DD3F005E6958 /* MenubarToolTests */,
+				E27CED681B10DD3F005E6958 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E27CED681B10DD3F005E6958 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E27CED671B10DD3F005E6958 /* MenubarTool.app */,
+				E27CED771B10DD3F005E6958 /* MenubarToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E27CED691B10DD3F005E6958 /* MenubarTool */ = {
+			isa = PBXGroup;
+			children = (
+				E27CED6C1B10DD3F005E6958 /* AppDelegate.swift */,
+				E27CED6E1B10DD3F005E6958 /* Images.xcassets */,
+				E27CED701B10DD3F005E6958 /* MainMenu.xib */,
+				E27CED6A1B10DD3F005E6958 /* Supporting Files */,
+			);
+			path = MenubarTool;
+			sourceTree = "<group>";
+		};
+		E27CED6A1B10DD3F005E6958 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E27CED6B1B10DD3F005E6958 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E27CED7A1B10DD3F005E6958 /* MenubarToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				E27CED7D1B10DD3F005E6958 /* MenubarToolTests.swift */,
+				E27CED7B1B10DD3F005E6958 /* Supporting Files */,
+			);
+			path = MenubarToolTests;
+			sourceTree = "<group>";
+		};
+		E27CED7B1B10DD3F005E6958 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E27CED7C1B10DD3F005E6958 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E27CED661B10DD3F005E6958 /* MenubarTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27CED811B10DD3F005E6958 /* Build configuration list for PBXNativeTarget "MenubarTool" */;
+			buildPhases = (
+				E27CED631B10DD3F005E6958 /* Sources */,
+				E27CED641B10DD3F005E6958 /* Frameworks */,
+				E27CED651B10DD3F005E6958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MenubarTool;
+			productName = MenubarTool;
+			productReference = E27CED671B10DD3F005E6958 /* MenubarTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E27CED761B10DD3F005E6958 /* MenubarToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E27CED841B10DD3F005E6958 /* Build configuration list for PBXNativeTarget "MenubarToolTests" */;
+			buildPhases = (
+				E27CED731B10DD3F005E6958 /* Sources */,
+				E27CED741B10DD3F005E6958 /* Frameworks */,
+				E27CED751B10DD3F005E6958 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E27CED791B10DD3F005E6958 /* PBXTargetDependency */,
+			);
+			name = MenubarToolTests;
+			productName = MenubarToolTests;
+			productReference = E27CED771B10DD3F005E6958 /* MenubarToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E27CED5F1B10DD3F005E6958 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "John Lauck";
+				TargetAttributes = {
+					E27CED661B10DD3F005E6958 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					E27CED761B10DD3F005E6958 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = E27CED661B10DD3F005E6958;
+					};
+				};
+			};
+			buildConfigurationList = E27CED621B10DD3F005E6958 /* Build configuration list for PBXProject "MenubarTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E27CED5E1B10DD3F005E6958;
+			productRefGroup = E27CED681B10DD3F005E6958 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E27CED661B10DD3F005E6958 /* MenubarTool */,
+				E27CED761B10DD3F005E6958 /* MenubarToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E27CED651B10DD3F005E6958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27CED6F1B10DD3F005E6958 /* Images.xcassets in Resources */,
+				E27CED721B10DD3F005E6958 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27CED751B10DD3F005E6958 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E27CED631B10DD3F005E6958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27CED6D1B10DD3F005E6958 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E27CED731B10DD3F005E6958 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27CED7E1B10DD3F005E6958 /* MenubarToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E27CED791B10DD3F005E6958 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E27CED661B10DD3F005E6958 /* MenubarTool */;
+			targetProxy = E27CED781B10DD3F005E6958 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E27CED701B10DD3F005E6958 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E27CED711B10DD3F005E6958 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E27CED7F1B10DD3F005E6958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E27CED801B10DD3F005E6958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E27CED821B10DD3F005E6958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MenubarTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E27CED831B10DD3F005E6958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MenubarTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E27CED851B10DD3F005E6958 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MenubarToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenubarTool.app/Contents/MacOS/MenubarTool";
+			};
+			name = Debug;
+		};
+		E27CED861B10DD3F005E6958 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MenubarToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MenubarTool.app/Contents/MacOS/MenubarTool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E27CED621B10DD3F005E6958 /* Build configuration list for PBXProject "MenubarTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27CED7F1B10DD3F005E6958 /* Debug */,
+				E27CED801B10DD3F005E6958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E27CED811B10DD3F005E6958 /* Build configuration list for PBXNativeTarget "MenubarTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27CED821B10DD3F005E6958 /* Debug */,
+				E27CED831B10DD3F005E6958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E27CED841B10DD3F005E6958 /* Build configuration list for PBXNativeTarget "MenubarToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E27CED851B10DD3F005E6958 /* Debug */,
+				E27CED861B10DD3F005E6958 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E27CED5F1B10DD3F005E6958 /* Project object */;
+}
